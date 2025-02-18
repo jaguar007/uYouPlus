@@ -34,7 +34,7 @@ on:
       upload_artifact:
         description: "Upload Artifact"
         default: true
-        required: true
+        required: false
         type: boolean
 
 concurrency:
