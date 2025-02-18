@@ -33,8 +33,8 @@ on:
         type: boolean
       upload_artifact:
         description: "Upload Artifact"
-        default: false
-        required: false
+        default: true
+        required: true
         type: boolean
 
 concurrency:
